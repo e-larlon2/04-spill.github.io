@@ -2,14 +2,12 @@ body {
     background-image: url("image/matrix.gif");
     background-color: cornflowerblue;
     color: white;
-    margin: 0px;
-    padding: 0px;
 }
 
 .box {
     margin: auto;
     width: 55%;
-    height: 1000px;
+    height: 800px;
     margin-top: 5%;
     border: 5px solid black;
     border-radius: 25px;
@@ -28,15 +26,13 @@ p {
 }
 
 .player {
-    font-size: 30px;
     padding-right: 50px;
     position: relative;
 }
 
 #resultat {
     position: relative;
-    left: 0px;
-    font-size: 65px;
+    font-size: 50px;
     text-align: center;
 }
 
@@ -50,23 +46,12 @@ button {
 
 button img {
     border-radius: 25px;
-    width: 350px;
-    height: 250px;
+    width: 250px;
+    height: 150px;
 }
 
 .poengSystem {
     margin-top: 20px;
     display: grid;
-    width: auto
-}
-
-.playerOne {
-    position: relative;
-    left: -300px;
-}
-
-.playerTwo {
-    position: absolute;
-    right: 300px;
-    text-align: left;
+    grid-template-columns: auto auto;
 }
