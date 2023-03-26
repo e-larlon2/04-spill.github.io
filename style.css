@@ -6,8 +6,8 @@ body {
 
 .box {
     margin: auto;
-    width: 55%;
-    height: 800px;
+    width: 65%;
+    height: 820px;
     margin-top: 5%;
     border: 5px solid black;
     border-radius: 25px;
@@ -16,11 +16,11 @@ body {
     position: relative;
 }
 
-p {
+#overskrift {
     position: relative;
     text-align: center;
     font-size: larger;
-    font-size: 65px;
+    font-size: 60px;
     margin-top: auto;
     padding-top: 20px;
 }
@@ -51,7 +51,12 @@ button img {
 }
 
 .poengSystem {
+    font-size: 20px;
     margin-top: 20px;
     display: grid;
     grid-template-columns: auto auto;
+}
+
+#info {
+    font-size: 25px;
 }

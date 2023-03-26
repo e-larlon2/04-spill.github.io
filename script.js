@@ -59,6 +59,7 @@ function btnOnClick(choice) {
         document.getElementById("poeng2").innerHTML = datamaskinPoeng;
         // Update the result message in the HTML document
         document.getElementById("resultat").innerHTML = "Spill igjen";
+        document.getElementById("info").innerHTML ="Trykk og velg et av bildene for å starte spiller igjen";
 
     } else if (datamaskinPoeng == 3) {
         alert("DU TAPTE!");
@@ -71,6 +72,7 @@ function btnOnClick(choice) {
         document.getElementById("poeng2").innerHTML = datamaskinPoeng;
         // Update the result message in the HTML document
         document.getElementById("resultat").innerHTML = "Spill igjen";
+        document.getElementById("info").innerHTML ="Trykk og velg et av bildene for å starte spiller igjen";
     }
 
     // Return false to prevent the page from refreshing when the button is clicked
